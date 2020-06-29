@@ -2,14 +2,15 @@
 Created by ikayz on 29/06/2020
 */
 fun main() {
-    printBorder()
+    val border = "%"
+    printBorder(border)
     println("Happy Birthday Isaac!")
-    printBorder()
+    printBorder(border)
 }
 
-fun printBorder() {
+fun printBorder(border: String) {
     repeat(23) {
-        print("=")
+        print(border)
     }
     println()
 }
