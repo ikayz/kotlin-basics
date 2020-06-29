@@ -5,7 +5,7 @@ fun main() {
     val border = "`-._,-'"
     val timesToRepeat = 4
     printBorder(border, timesToRepeat)
-    println("Happy Birthday Isaac!")
+    println("   Happy Birthday Isaac!")
     printBorder(border, timesToRepeat)
 }
 
