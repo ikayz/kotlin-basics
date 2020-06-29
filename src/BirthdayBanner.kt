@@ -2,14 +2,15 @@
 Created by ikayz on 29/06/2020
 */
 fun main() {
-    val border = "%"
-    printBorder(border)
+    val border = "`-._,-'"
+    val timesToRepeat = 4
+    printBorder(border, timesToRepeat)
     println("Happy Birthday Isaac!")
-    printBorder(border)
+    printBorder(border, timesToRepeat)
 }
 
-fun printBorder(border: String) {
-    repeat(23) {
+fun printBorder(border: String, timesToRepeat: Int) {
+    repeat(timesToRepeat) {
         print(border)
     }
     println()
