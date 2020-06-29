@@ -5,7 +5,12 @@ fun main() {
     val age = 24
     val layers = 5
     printCakeCandles(age)
-    printCakeTop()
+    printCakeTop(age)
+    printCakeBottom(age, layers)
+}
+
+fun printCakeBottom(age: Int, layers: Int) {
+    TODO("Not yet implemented")
 }
 
 fun printCakeTop() {
