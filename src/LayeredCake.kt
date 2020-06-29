@@ -4,7 +4,7 @@ Created by ikayz on 29/06/2020
 fun main() {
     val age = 24
     val layers = 5
-//    printCakeCandles(age)
+    printCakeCandles(age)
     printCakeTop(age)
 //    printCakeBottom(age, layers)
 }
@@ -20,6 +20,16 @@ fun printCakeTop(age: Int) {
     println()
 }
 
-fun printCakeCandles() {
-    TODO("Not yet implemented")
+fun printCakeCandles(age: Int) {
+    print(" ")
+    repeat(age) {
+        print(",")
+    }
+    println()
+
+    print(" ")
+    repeat(age) {
+        print("I")
+    }
+    println()
 }
