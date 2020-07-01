@@ -10,10 +10,12 @@ fun main() {
 }
 
 fun printCakeBottom(age: Int, layers: Int) {
-    repeat(age + 2) {
-        print("@")
+    repeat(layers) {
+        repeat(age + 2) {
+            print("@")
+        }
+        println()
     }
-    println()
 }
 
 fun printCakeTop(age: Int) {
