@@ -6,11 +6,14 @@ fun main() {
     val layers = 5
     printCakeCandles(age)
     printCakeTop(age)
-//    printCakeBottom(age, layers)
+    printCakeBottom(age, layers)
 }
 
 fun printCakeBottom(age: Int, layers: Int) {
-    TODO("Not yet implemented")
+    repeat(age + 2) {
+        print("@")
+    }
+    println()
 }
 
 fun printCakeTop(age: Int) {
@@ -29,7 +32,7 @@ fun printCakeCandles(age: Int) {
 
     print(" ")
     repeat(age) {
-        print("I")
+        print("|")
     }
     println()
 }
