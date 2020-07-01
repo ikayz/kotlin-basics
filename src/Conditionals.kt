@@ -20,4 +20,13 @@ fun main() {
         "You got it wrong"
     }
     println(answerString)
+
+    // When expression
+    val answerStringTwo = when {
+        count == 23 -> "I have the answer."
+        count > 23 -> "It's not quite right."
+        else -> "That's not right."
+    }
+
+    println(answerStringTwo)
 }
