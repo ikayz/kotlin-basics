@@ -28,5 +28,11 @@ fun main() {
         else -> "That's not right."
     }
 
+    // Nullable
+    val languageName: String? = null
+    if (languageName != null) {
+        println(languageName.toUpperCase())
+    }
+
     println(answerStringTwo)
 }
