@@ -35,6 +35,8 @@ fun generateAnswerString(countThreshold: Int): String {
     }
 }
 
+// Removing the
+
 fun main() {
     val answerString = generateAnswerString(40)
     println(answerString)

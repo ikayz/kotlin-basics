@@ -1,3 +1,5 @@
+import java.util.*
+
 /*
 Created by ikayz on 01/07/2020
 */
@@ -35,4 +37,8 @@ fun main() {
     }
 
     println(answerStringTwo)
+
+    val scanner = Scanner(System.`in`)
+    val cutFraction: Double = scanner.nextInt().toDouble()
+    println(cutFraction)
 }
