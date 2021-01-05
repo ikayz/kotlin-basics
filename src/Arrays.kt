@@ -7,4 +7,11 @@ fun main() {
 
     books[2] = "Peter pan"
     println("Book number two is: ${books[1]}" )
+
+    val clothes = arrayOf(
+        arrayOf("Jackets", "Coats", "Jumpers"),
+        arrayOf("Denim Jeans", "Soft Jeans", "Ripped Jeans")
+    )
+
+    println("I love ${clothes[0][0].toLowerCase()} and ${clothes[1][1].toLowerCase()}")
 }
